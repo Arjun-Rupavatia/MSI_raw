@@ -8,8 +8,8 @@
         {
             "name": "storageaccountarjundemo",
             "type": "Microsoft.Storage/storageAccounts",
-            "apiVersion": "2021-04-01",
-            "location": "[resourceGroup().location]",
+            "apiVersion": "2019-04-01",
+            "location": "eastus",
             "kind": "StorageV2",
             "sku": {
                 "name": "Standard_LRS",
